@@ -24,7 +24,7 @@ import database.Helper;
 
 public class Main {
 	
-	private static final String API_KEY = "qtqep7qydngcc7grk4r4hyd9";
+	private static final String API_KEY = "your api key";
 	private static String URI = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?page_limit=16&page=1&country=gr&apikey="
 								+ API_KEY;
 	private final String USER_AGENT = "Mozilla/5.0";
